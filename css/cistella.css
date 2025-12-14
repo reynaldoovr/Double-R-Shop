@@ -1,0 +1,110 @@
+.cistella-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+ }
+ 
+ .cistella-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ }
+ 
+ .cistella-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex: 1;
+ }
+ 
+ .cistella-item-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+ }
+ 
+ .cistella-item-details h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+ }
+ 
+ .price, .quantity, .subtotal {
+    margin: 5px 0;
+    color: #666;
+ }
+ 
+ .subtotal {
+    font-weight: bold;
+    color: #333;
+ }
+ 
+ .delete-button {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s;
+    font-size: 14px;
+ }
+ 
+ .delete-button:hover {
+    background-color: #ff6b81;
+ }
+ 
+ .delete-icon {
+    font-size: 20px;
+    line-height: 1;
+ }
+ 
+ .cistella-total {
+    text-align: right;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ }
+ 
+ .empty-cart {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    border-radius: 8px;
+    color: #666;
+ }
+ 
+ h1 {
+    margin-bottom: 30px;
+    color: #333;
+ }
+
+ .cistella-total {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background: white;
+   border-radius: 8px;
+   margin-top: 20px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#buidar-cistella {
+   background-color: #dc3545;
+   margin-left: 20px;
+}
+
+#buidar-cistella:hover {
+   background-color: #c82333;
+}
